@@ -1,0 +1,57 @@
+.find-track {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.find-track__input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.find-track__input input {
+    width: 90%;
+    height: 25px;
+    background-color: white;
+    outline: none;
+    
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid white 
+}
+
+.find-track__input input:focus {
+    border-color: #1877F2;
+    outline: none;
+}
+
+.find-track__form-block {
+    width: 40%;
+}
+
+.find-track__button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    background-color: #1877F2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.find-track__button:focus {
+    border: none;
+}
+
+.find-track__form-block {
+    width: 60%;
+}
+
+.track-block__artist {
+    font-weight: bold;
+}
+
+.find-track__tracks-block {
+    margin-top: 20px;
+}

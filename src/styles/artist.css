@@ -1,0 +1,29 @@
+.artist {
+    margin-top: 20px;
+}
+
+.artist__bio a {
+    color: blue
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag {
+    padding: 5px 10px;
+    border: 1px solid #1877F2;
+    color: #1877F2;
+    background-color: white;
+}
+
+.tag a {
+    
+    color: #1877F2;
+   
+}
+
+.tag + .tag {
+    margin-left: 10px;
+}

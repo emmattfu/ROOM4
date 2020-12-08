@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    max-width: 400px;
+    min-width: 100px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.card__artist {
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.card__link {
+    color:  #1877F2;
+}
+
+.card__link:hover {
+    color:  #1877F2;
+}
